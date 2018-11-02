@@ -1,0 +1,4 @@
+Sitemap: https://peristeri.github.io/sitemapindex.xml
+
+User-Agent: *
+Host: peristeri.github.io
