@@ -5,6 +5,7 @@
 .. category: Guide
 .. description: A guide to how name your classes, functions and variables.
 .. type: text
+.. status: draft
 
 ====================
 What is in the name?

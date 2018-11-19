@@ -3,6 +3,7 @@
 .. date: 2018-04-01
 .. tags: python, software engineering
 .. category:
+.. status: draft
 .. description: Learning python 3.7 features by implementing a module to do the
    extraction of data.
 
