@@ -6,6 +6,7 @@
 .. description: Define the role of a software architecture and how it is
    different from software engineering.
 .. type: text
+.. status: draft
 
 ====================
 Software architecture vs Software Engineering

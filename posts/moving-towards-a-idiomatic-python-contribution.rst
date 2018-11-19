@@ -5,6 +5,7 @@
 .. category: Guide
 .. description: A guide to how to begin contributing to open source.
 .. type: text
+.. status: draft
 
 
 ==================================
