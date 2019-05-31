@@ -2,92 +2,14 @@
 
 import time
 
-# !! This is the configuration of Nikola. !! #
-# !!  You should edit it to your liking.  !! #
-
-
-# ! Some settings can be different in different languages.
-# ! A comment stating (translatable) is used to denote those.
-# ! There are two ways to specify a translatable setting:
-# ! (a) BLOG_TITLE = "My Blog"
-# ! (b) BLOG_TITLE = {"en": "My Blog", "es": "Mi Blog"}
-# ! Option (a) is used when you don't want that setting translated.
-# ! Option (b) is used for settings that are different in different languages.
-
-
 # Data about this site
-BLOG_AUTHOR = "George Peristerakis"  # (translatable)
-BLOG_TITLE = "My experience and struggles applying engineering to software development"  # (translatable)
+BLOG_AUTHOR = "George Peristerakis"
+BLOG_TITLE = "Software development brain teasers"
 # This is the main URL for your site. It will be used
 # in a prominent link. Don't forget the protocol (http/https)!
 SITE_URL = "https://peristeri.github.io/"
-# This is the URL where Nikola's output will be deployed.
-# If not set, defaults to SITE_URL
-# BASE_URL = "https://peristeri.github.io/"
 BLOG_EMAIL = "peristerakis@gmail.com"
-BLOG_DESCRIPTION = "A blog on my experience and struggles applying engineering best practices to software development projects."  # (translatable)
-
-# Nikola is multilingual!
-#
-# Currently supported languages are:
-#
-# en        English
-# ar        Arabic
-# az        Azerbaijani
-# bg        Bulgarian
-# bs        Bosnian
-# ca        Catalan
-# cs        Czech [ALTERNATIVELY cz]
-# da        Danish
-# de        German
-# el        Greek [NOT gr]
-# eo        Esperanto
-# es        Spanish
-# et        Estonian
-# eu        Basque
-# fa        Persian
-# fi        Finnish
-# fr        French
-# gl        Galician
-# he        Hebrew
-# hi        Hindi
-# hr        Croatian
-# hu        Hungarian
-# id        Indonesian
-# it        Italian
-# ja        Japanese [NOT jp]
-# ko        Korean
-# lt        Lithuanian
-# ml        Malayalam
-# nb        Norwegian (Bokmål)
-# nl        Dutch
-# pa        Punjabi
-# pl        Polish
-# pt        Portuguese
-# pt_br     Portuguese (Brazil)
-# ru        Russian
-# sk        Slovak
-# sl        Slovene
-# sq        Albanian
-# sr        Serbian (Cyrillic)
-# sr_latin  Serbian (Latin)
-# sv        Swedish
-# te        Telugu
-# th        Thai
-# tr        Turkish [NOT tr_TR]
-# uk        Ukrainian
-# ur        Urdu
-# vi        Vietnamese
-# zh_cn     Chinese (Simplified)
-# zh_tw     Chinese (Traditional)
-#
-# If you want to use Nikola with a non-supported language you have to provide
-# a module containing the necessary translations
-# (cf. the modules at nikola/data/themes/base/messages/).
-# If a specific post is not translated to a language, then the version
-# in the default language will be shown instead.
-
-# What is the default language?
+BLOG_DESCRIPTION = "A journal on my experiences and struggles applying software engineering best practices and thoughts on my software development projects."
 DEFAULT_LANG = "en"
 
 # What other languages do you have?
@@ -109,58 +31,27 @@ TRANSLATIONS = {
 
 TRANSLATIONS_PATTERN = '{path}.{lang}.{ext}'
 
-# Links for the sidebar / navigation bar.  (translatable)
-# This is a dict.  The keys are languages, and values are tuples.
-#
-# For regular links:
-#     ('https://getnikola.com/', 'Nikola Homepage')
-#
-# For submenus:
-#     (
-#         (
-#             ('https://apple.com/', 'Apple'),
-#             ('https://orange.com/', 'Orange'),
-#         ),
-#         'Fruits'
-#     )
-#
-# WARNING: Support for submenus is theme-dependent.
-#          Only one level of submenus is supported.
-# WARNING: Some themes, including the default Bootstrap 4 theme,
-#          may present issues if the menu is too large.
-#          (in Bootstrap, the navbar can grow too large and cover contents.)
-# WARNING: If you link to directories, make sure to follow
-#          ``STRIP_INDEXES``.  If it’s set to ``True``, end your links
-#          with a ``/``, otherwise end them with ``/index.html`` — or
-#          else they won’t be highlighted when active.
-
 NAVIGATION_LINKS = {
     DEFAULT_LANG: (
-        ('/', 'Home', 'fa fa-home'),
-        ("/archive.html", "Archive", 'fa fa-folder-open'),
-        ("/categories/", "Tags", 'fafa-tags'),
-        ("/rss.xml", "RSS feed", 'fa fa-rss'),
-        ('/pages/', 'About Me', 'fa fa-user'),
-        ('https://github.com/peristeri', 'Github Profile', 'fab fa-github-alt'),
-        ('https://twitter.com/peristerakis', 'Twitter Profile', 'fab fa-twitter'),
+        ('/resume/', 'About Me'),
+        ('https://github.com/peristeri', 'Github'),
+        ('https://twitter.com/peristerakis', 'Twitter'),
+        ("/categories/", "Categories"),
+        ("/archive.html", "Archive"),
+        ("/rss.xml", "RSS feed"),
     ),
 }
 
-DATE_FANCINESS = 2
-
-# Alternative navigation links. Works the same way NAVIGATION_LINKS does,
-# although themes may not always support them. (translatable)
-# (Bootstrap 4: right-side of navbar, Bootblog 4: right side of title)
 NAVIGATION_ALT_LINKS = {
     DEFAULT_LANG: {}
 }
 
 # Name of the theme to use.
-THEME = "zen"
+THEME = "yeti"
 
 # Primary color of your theme. This will be used to customize your theme.
 # Must be a HEX value.
-THEME_COLOR = '#5670d4'
+THEME_COLOR = 'bleu'
 
 # Theme configuration. Fully theme-dependent. (translatable)
 # Examples below are for bootblog4.
@@ -174,62 +65,29 @@ THEME_CONFIG = {
         # Show the first (remaining) two featured posts in small boxes.
         'featured_small': False,
         # Show featured posts on mobile.
-        'featured_on_mobile': True,
+        'featured_on_mobile': False,
         # Show image in `featured_large` on mobile.
         # `featured_small` displays them only on desktop.
-        'featured_large_image_on_mobile': True,
+        'featured_large_image_on_mobile': False,
         # Strip HTML from featured post text.
-        'featured_strip_html': False,
+        'featured_strip_html': True,
         # Contents of the sidebar, If empty, the sidebar is not displayed.
         'sidebar': ''
     }
 }
 
-# POSTS and PAGES contains (wildcard, destination, template) tuples.
-# (translatable)
-#
-# The wildcard is used to generate a list of source files
-# (whatever/thing.rst, for example).
-#
-# That fragment could have an associated metadata file (whatever/thing.meta),
-# and optionally translated files (example for Spanish, with code "es"):
-#     whatever/thing.es.rst and whatever/thing.es.meta
-#
-#     This assumes you use the default TRANSLATIONS_PATTERN.
-#
-# From those files, a set of HTML fragment files will be generated:
-# cache/whatever/thing.html (and maybe cache/whatever/thing.html.es)
-#
-# These files are combined with the template to produce rendered
-# pages, which will be placed at
-# output/TRANSLATIONS[lang]/destination/pagename.html
-#
-# where "pagename" is the "slug" specified in the metadata file.
-# The page might also be placed in /destination/pagename/index.html
-# if PRETTY_URLS are enabled.
-#
-# The difference between POSTS and PAGES is that POSTS are added
-# to feeds, indexes, tag lists and archives and are considered part
-# of a blog, while PAGES are just independent HTML pages.
-#
-# Finally, note that destination can be translated, i.e. you can
-# specify a different translation folder per language. Example:
-#     PAGES = (
-#         ("pages/*.rst", {"en": "pages", "de": "seiten"}, "page.tmpl"),
-#         ("pages/*.md", {"en": "pages", "de": "seiten"}, "page.tmpl"),
-#     )
-
 POSTS = (
-    ("posts/*.rst", "posts", "post.tmpl"),
-    ("posts/*.md", "posts", "post.tmpl"),
-    ("posts/*.txt", "posts", "post.tmpl"),
-    ("posts/*.html", "posts", "post.tmpl"),
+    ("posts/*.rst", "blog", "post.tmpl"),
+    ("posts/*.md", "blog", "post.tmpl"),
+    ("posts/*.txt", "blog", "post.tmpl"),
+    ("posts/*.html", "blog", "post.tmpl"),
 )
+
 PAGES = (
-    ("pages/*.rst", "pages", "page.tmpl"),
-    ("pages/*.md", "pages", "page.tmpl"),
-    ("pages/*.txt", "pages", "page.tmpl"),
-    ("pages/*.html", "pages", "page.tmpl"),
+    ("pages/*.rst", "", "page.tmpl"),
+    ("pages/*.md", "", "page.tmpl"),
+    ("pages/*.txt", "", "page.tmpl"),
+    ("pages/*.html", "", "page.tmpl"),
 )
 
 
@@ -252,11 +110,11 @@ TIMEZONE = "America/Montreal"
 # Date format used to display post dates. (translatable)
 # Used by babel.dates, CLDR style: http://cldr.unicode.org/translation/date-time
 # You can also use 'full', 'long', 'medium', or 'short'
-# DATE_FORMAT = 'YYYY-MM-dd HH:mm'
+DATE_FORMAT = 'short'
 
 # Date format used to display post dates, if local dates are used. (translatable)
 # Used by moment.js: https://momentjs.com/docs/#/displaying/format/
-# JS_DATE_FORMAT = 'YYYY-MM-DD HH:mm'
+JS_DATE_FORMAT = 'dddd, MMMM Do YYYY'
 
 # Date fanciness.
 #
@@ -265,7 +123,7 @@ TIMEZONE = "America/Montreal"
 # 2 = using a string like “2 days ago”
 #
 # Your theme must support it, Bootstrap already does.
-# DATE_FANCINESS = 0
+DATE_FANCINESS = 2
 
 # Customize the locale/region used for a language.
 # For example, to use British instead of US English: LOCALES = {'en': 'en_GB'}
@@ -299,14 +157,6 @@ COMPILERS = {
     "wiki": ('.wiki',),
     "ipynb": ('.ipynb',),
     "html": ('.html', '.htm'),
-    # PHP files are rendered the usual way (i.e. with the full templates).
-    # The resulting files have .php extensions, making it possible to run
-    # them without reconfiguring your server to recognize them.
-    "php": ('.php',),
-    # Pandoc detects the input from the source filename
-    # but is disabled by default as it would conflict
-    # with many of the others.
-    # "pandoc": ('.rst', '.md', '.txt'),
 }
 
 # Create by default posts in one file format?
@@ -460,7 +310,7 @@ CATEGORY_OUTPUT_FLAT_HIERARCHY = False
 # If you do not want to display a category publicly, you can mark it as hidden.
 # The category will not be displayed on the category list page.
 # Category pages will still be generated.
-HIDDEN_CATEGORIES = []
+# HIDDEN_CATEGORIES = []
 
 # A list of dictionaries specifying categories which translate to each other.
 # Format: a list of dicts {language: translation, language2: translation2, …}
@@ -532,12 +382,12 @@ HIDDEN_CATEGORIES = []
 # If you do not want to display an author publicly, you can mark it as hidden.
 # The author will not be displayed on the author list page and posts.
 # Tag pages will still be generated.
-HIDDEN_AUTHORS = ['Guest']
+# HIDDEN_AUTHORS = ['Guest']
 
 # Final location for the main blog page and sibling paginated pages is
 # output / TRANSLATION[lang] / INDEX_PATH / index-*.html
 # (translatable)
-# INDEX_PATH = ""
+# INDEX_PATH = "blog"
 
 # Optional HTML that displayed on “main” blog index.html files.
 # May be used for a greeting. (translatable)
@@ -561,8 +411,8 @@ FRONT_INDEX_HEADER = {
 # output / TRANSLATION[lang] / ARCHIVE_PATH / YEAR / index.html
 # output / TRANSLATION[lang] / ARCHIVE_PATH / YEAR / MONTH / index.html
 # output / TRANSLATION[lang] / ARCHIVE_PATH / YEAR / MONTH / DAY / index.html
-# ARCHIVE_PATH = ""
-# ARCHIVE_FILENAME = "archive.html"
+ARCHIVE_PATH = "blog/archive"
+ARCHIVE_FILENAME = "index.html"
 
 # If ARCHIVES_ARE_INDEXES is set to True, each archive page which contains a list
 # of posts will contain the posts themselves. If set to False, it will be just a
@@ -885,7 +735,7 @@ IMAGE_FOLDERS = {'images': 'images'}
 # )
 
 # Show teasers (instead of full posts) in indexes? Defaults to False.
-# INDEX_TEASERS = False
+INDEX_TEASERS = True
 
 # HTML fragments with the Read more... links.
 # The following tags exist and are replaced for you:
@@ -917,18 +767,23 @@ FEED_LINKS_APPEND_QUERY = False
 
 # A HTML fragment describing the license, for the sidebar.
 # (translatable)
-LICENSE = ""
+# LICENSE = ""
 # I recommend using the Creative Commons' wizard:
 # https://creativecommons.org/choose/
-# LICENSE = """
-# <a rel="license" href="https://creativecommons.org/licenses/by-nc-sa/4.0/">
-# <img alt="Creative Commons License BY-NC-SA"
-# style="border-width:0; margin-bottom:12px;"
-# src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png"></a>"""
+LICENSE = """
+<a rel="license" href="https://creativecommons.org/licenses/by-nc-sa/4.0/">
+<img alt="Creative Commons License BY-NC-SA"
+style="border-width:0; margin-bottom:12px;"
+src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png"></a>"""
 
 # A small copyright notice for the page footer (in HTML).
 # (translatable)
-CONTENT_FOOTER = 'Contents &copy; {date}         <a href="mailto:{email}">{author}</a> - Powered by         <a href="https://getnikola.com" rel="nofollow">Nikola</a>         {license}'
+CONTENT_FOOTER = '''
+<div>
+Contents &copy; {date} <a href="mailto:{email}">{author}</a>
+</div>
+<div>{license}</div>
+'''
 
 # Things that will be passed to CONTENT_FOOTER.format().  This is done
 # for translatability, as dicts are not formattable.  Nikola will
@@ -965,12 +820,14 @@ RSS_COPYRIGHT_FORMATS = CONTENT_FOOTER_FORMATS
 # systems.  The following comment systems are supported by Nikola:
 #   disqus, facebook, intensedebate, isso, livefyre, muut
 # You can leave this option blank to disable comments.
+# COMMENT_SYSTEM = "disqus"
 COMMENT_SYSTEM = ""
+
 # And you also need to add your COMMENT_SYSTEM_ID which
 # depends on what comment system you use. The default is
 # "nikolademo" which is a test account for Disqus. More information
 # is in the manual.
-COMMENT_SYSTEM_ID = ""
+COMMENT_SYSTEM_ID = "georgeperisterakis"
 
 # Create index.html for page folders?
 # WARNING: if a page would conflict with the index file (usually
@@ -1282,6 +1139,7 @@ MARKDOWN_EXTENSIONS = ['markdown.extensions.fenced_code', 'markdown.extensions.c
 # environment but is not recommended for HTTP/2.0 when caching is used.
 # Defaults to True.
 # USE_BUNDLES = True
+USE_BUNDLES = False
 
 # Plugins you don't want to use. Be careful :-)
 # DISABLED_PLUGINS = ["render_galleries"]
