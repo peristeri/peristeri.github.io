@@ -7,54 +7,18 @@
                         http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
  <url>
   <loc>https://peristeri.github.io/</loc>
-  <lastmod>2018-11-05T14:39:00Z</lastmod>
+  <lastmod>2019-05-31T19:17:00Z</lastmod>
  </url>
  <url>
-  <loc>https://peristeri.github.io/2018/</loc>
-  <lastmod>2018-05-02T14:01:00Z</lastmod>
- </url>
- <url>
-  <loc>https://peristeri.github.io/archive.html</loc>
-  <lastmod>2018-11-19T11:13:00Z</lastmod>
+  <loc>https://peristeri.github.io/blog/archive/</loc>
+  <lastmod>2019-05-31T19:17:00Z</lastmod>
  </url>
  <url>
   <loc>https://peristeri.github.io/categories/</loc>
-  <lastmod>2018-11-19T11:03:00Z</lastmod>
+  <lastmod>2019-05-31T19:24:00Z</lastmod>
  </url>
  <url>
-  <loc>https://peristeri.github.io/categories/cat_guide/</loc>
-  <lastmod>2018-05-02T14:01:00Z</lastmod>
- </url>
- <url>
-  <loc>https://peristeri.github.io/categories/draft/</loc>
-  <lastmod>2018-11-05T14:39:00Z</lastmod>
- </url>
- <url>
-  <loc>https://peristeri.github.io/categories/introduction/</loc>
-  <lastmod>2018-11-05T14:39:00Z</lastmod>
- </url>
- <url>
-  <loc>https://peristeri.github.io/categories/open-source/</loc>
-  <lastmod>2018-11-05T14:39:00Z</lastmod>
- </url>
- <url>
-  <loc>https://peristeri.github.io/categories/python/</loc>
-  <lastmod>2018-05-02T14:01:00Z</lastmod>
- </url>
- <url>
-  <loc>https://peristeri.github.io/categories/software-engineering/</loc>
-  <lastmod>2018-05-02T14:01:00Z</lastmod>
- </url>
- <url>
-  <loc>https://peristeri.github.io/pages/</loc>
-  <lastmod>2018-11-12T15:48:00Z</lastmod>
- </url>
- <url>
-  <loc>https://peristeri.github.io/pages/my_resume/</loc>
-  <lastmod>2018-11-05T14:39:00Z</lastmod>
- </url>
- <url>
-  <loc>https://peristeri.github.io/pages/my_resume2/</loc>
-  <lastmod>2018-11-05T22:32:00Z</lastmod>
+  <loc>https://peristeri.github.io/resume/</loc>
+  <lastmod>2019-05-31T19:17:00Z</lastmod>
  </url>
 </urlset>
