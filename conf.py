@@ -8,7 +8,7 @@ BLOG_TITLE = "Software development brain teasers"
 # This is the main URL for your site. It will be used
 # in a prominent link. Don't forget the protocol (http/https)!
 SITE_URL = "https://peristeri.github.io/"
-BLOG_EMAIL = "peristerakis@gmail.com"
+BLOG_EMAIL = "peristerakis -at- gmail -.- com"
 BLOG_DESCRIPTION = "A journal on my experiences and struggles applying software engineering best practices and thoughts on my software development projects."
 DEFAULT_LANG = "en"
 
