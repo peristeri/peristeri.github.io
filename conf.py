@@ -780,7 +780,7 @@ src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png"></a>"""
 # (translatable)
 CONTENT_FOOTER = '''
 <div>
-Contents &copy; {date} <a href="mailto:{email}">{author}</a>
+Contents &copy; {date} <a href="#">{author}</a>
 </div>
 <div>{license}</div>
 '''
