@@ -6976,7 +6976,7 @@ button.bg-danger:focus {
   background-color: #d32a0e !important;
 }
 
-.bg-light {
+.bg-light, #experience > div:nth-of-type(even) {
   background-color: #eee !important;
 }
 
@@ -10603,18 +10603,21 @@ a.text-dark:hover, a.text-dark:focus {
   color: #fff;
 }
 
-.bg-light .dropdown-menu {
+.bg-light .dropdown-menu, #experience > div:nth-of-type(even) .dropdown-menu {
   background-color: #eee;
 }
 
-.bg-light .dropdown-menu .dropdown-item,
-.bg-light .dropdown-menu .dropdown-item:focus {
+.bg-light .dropdown-menu .dropdown-item, #experience > div:nth-of-type(even) .dropdown-menu .dropdown-item,
+.bg-light .dropdown-menu .dropdown-item:focus,
+#experience > div:nth-of-type(even) .dropdown-menu .dropdown-item:focus {
   color: rgba(0, 0, 0, 0.5);
 }
 
-.bg-light .dropdown-menu .dropdown-item.active,
+.bg-light .dropdown-menu .dropdown-item.active, #experience > div:nth-of-type(even) .dropdown-menu .dropdown-item.active,
 .bg-light .dropdown-menu .dropdown-item:hover,
-.bg-light .dropdown-menu .dropdown-item:focus {
+#experience > div:nth-of-type(even) .dropdown-menu .dropdown-item:hover,
+.bg-light .dropdown-menu .dropdown-item:focus,
+#experience > div:nth-of-type(even) .dropdown-menu .dropdown-item:focus {
   background-color: #fbfbfb;
   color: rgba(0, 0, 0, 0.7);
 }
