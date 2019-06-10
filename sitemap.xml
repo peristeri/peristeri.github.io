@@ -7,18 +7,42 @@
                         http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
  <url>
   <loc>https://peristeri.github.io/</loc>
-  <lastmod>2019-05-31T19:17:00Z</lastmod>
+  <lastmod>2019-06-10T14:36:00Z</lastmod>
  </url>
  <url>
   <loc>https://peristeri.github.io/blog/archive/</loc>
-  <lastmod>2019-05-31T19:17:00Z</lastmod>
+  <lastmod>2019-06-10T14:36:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://peristeri.github.io/blog/archive/2019/</loc>
+  <lastmod>2019-06-10T14:36:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://peristeri.github.io/blog/onboarding-senior-devs/</loc>
+  <lastmod>2019-06-03T13:23:00Z</lastmod>
  </url>
  <url>
   <loc>https://peristeri.github.io/categories/</loc>
-  <lastmod>2019-05-31T19:24:00Z</lastmod>
+  <lastmod>2019-06-10T14:36:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://peristeri.github.io/categories/cat_software-industry/</loc>
+  <lastmod>2019-06-10T14:36:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://peristeri.github.io/categories/opinion/</loc>
+  <lastmod>2019-06-10T14:36:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://peristeri.github.io/categories/retrospective-opinion/</loc>
+  <lastmod>2019-06-03T13:43:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://peristeri.github.io/categories/retrospective/</loc>
+  <lastmod>2019-06-10T14:36:00Z</lastmod>
  </url>
  <url>
   <loc>https://peristeri.github.io/resume/</loc>
-  <lastmod>2019-05-31T19:17:00Z</lastmod>
+  <lastmod>2019-06-10T14:36:00Z</lastmod>
  </url>
 </urlset>

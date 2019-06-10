@@ -617,6 +617,7 @@ pre code {
 }
 
 .col-1, .col-2, .col-3, #expertise h2,
+#values h2,
 #experience h2,
 #education h2,
 #affiliations h2, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-10, .col-11, .col-12, .col,
@@ -663,6 +664,7 @@ pre code {
 }
 
 .col-3, #expertise h2,
+#values h2,
 #experience h2,
 #education h2,
 #affiliations h2 {
@@ -11000,9 +11002,22 @@ label,
 }
 
 #expertise,
+#values,
 #experience,
 #education,
 #affiliations {
   border-top: 1px solid;
   margin-top: 20pt;
+}
+
+.metadata time.published:before {
+  content: "\f073";
+  font-family: FontAwesome;
+  padding: 5px;
+}
+
+.metadata p.author:before {
+  content: "\f007" !important;
+  font-family: FontAwesome;
+  padding: 5px;
 }

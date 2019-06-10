@@ -6,11 +6,27 @@
     xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
                         http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
  <sitemap>
+  <loc>https://peristeri.github.io/categories/cat_software-industry.xml</loc>
+  <lastmod>2019-06-10T19:46:00Z</lastmod>
+ </sitemap>
+ <sitemap>
+  <loc>https://peristeri.github.io/categories/opinion.xml</loc>
+  <lastmod>2019-06-10T19:46:00Z</lastmod>
+ </sitemap>
+ <sitemap>
+  <loc>https://peristeri.github.io/categories/retrospective-opinion.xml</loc>
+  <lastmod>2019-06-03T13:43:00Z</lastmod>
+ </sitemap>
+ <sitemap>
+  <loc>https://peristeri.github.io/categories/retrospective.xml</loc>
+  <lastmod>2019-06-10T19:46:00Z</lastmod>
+ </sitemap>
+ <sitemap>
   <loc>https://peristeri.github.io/rss.xml</loc>
-  <lastmod>2019-05-31T19:19:00Z</lastmod>
+  <lastmod>2019-06-10T19:54:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>https://peristeri.github.io/sitemap.xml</loc>
-  <lastmod>2019-05-31T19:27:00Z</lastmod>
+  <lastmod>2019-06-10T19:54:00Z</lastmod>
  </sitemap>
 </sitemapindex>
