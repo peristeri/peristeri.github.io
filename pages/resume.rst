@@ -6,7 +6,7 @@
 
 .. topic:: Overview
 
-   Seasoned back-end web developer that worked on diverse projects and involved in
+   Seasoned back-end web developer working on diverse projects and involved in
    the entire software development life-cycle using modern development tools.
    Interested in open source projects, software maintenance and data driven
    development.
@@ -22,28 +22,66 @@ Expertise
 Back-end web development
 ========================
 
-Developed diverse web solutions, from e-commerce to administrator portal.
+Developed diverse web solutions, from e-commerce to administrative dashboards.
+Strengths are business logic and content management.
 
-*Django* - *Javascript* - *Postgres* - *HTML & CSS* - *NGINX*
+*Django* - *Javascript* - *PostgreSQL* - *HTML & CSS* - *NGINX*
 
 .. class:: col-3
 
-Data extraction and processing
+Data processing and management
 ==============================
 
-Developed tools to digest data from different sources, generate the meta-data
-and manage the data-sets.
+Developed tools to digest data from different sources, developed data access
+REST API and manage the data.
 
-*Django* - *json-ld* - *postgres*
+*Django REST* - *postgreSQL* - *json-ld*
 
 .. class:: col-3
 
 Development Tools (dev-ops)
 ===========================
 
-Used tools used to automate the testing and deployment process of server applications.
+Used tools used to automate the development, testing and deployment process of
+server applications.
 
 *Git* - *Docker \& Docker-compose* - *Openstack* - *Ansible* - *travisCI*
+
+.. class:: row
+
+======
+Values
+======
+
+.. class:: col-3
+
+Engineering-driven
+==================
+
+Software engineering principles are valued and help define a development process
+life-cycle. Having a CI/CD is not enough, a strategy to gather and analyze code
+metrics. Using **agile methodologies** techniques to communicate the state of the
+development in almost real-time to the rest of the team. The result is **High
+quality code base**.
+
+.. class:: col-3
+
+Team oriented
+=============
+
+**Engaging with team members** builds a broad base of knowledge in the project
+and the target domain. In addition, **continuous feedback** and **open
+communication** helps the growth of the team as well as aligns expectation and
+motivates.
+
+.. class:: col-3
+
+Balanced developer
+==================
+
+Enjoy participating in technical meetups and hackathons too when time permits.
+Committed to **work-live balance** which help with my responsibilities as a
+parent.
 
 .. class:: row justify-content-end
 
@@ -59,12 +97,12 @@ Senior software developer
 CRIM
     12-2018 to 05-2019
 
-    **Java 8 \& Scala**
-    Hired to migrate an authentication and authorization service into a gateway API plugin
+    **Java 8 \& Scala** Hired to migrate an authentication and authorization
+    service into a gateway API plugin
 
 .. class:: col-9
 
-Software Developer & Assistant Researcher
+Software developer & assistant researcher
 =========================================
 
 École Polytechnique de Montréal
@@ -83,7 +121,7 @@ Software Developer & Assistant Researcher
 
 .. class:: col-9
 
-Software Developer
+Software developer
 ==================
 
 RedHat Inc.
@@ -105,8 +143,8 @@ RedHat Inc.
 
 .. class:: col-9
 
-Software Developer
-=====================
+Software developer
+==================
 
 Evolio.ca
    08-2012 to 07-2013
@@ -119,8 +157,8 @@ Evolio.ca
 
 .. class:: col-9
 
-Product Manager and Software Developer
-============================================
+Product manager and software developer
+======================================
 
 Lesite Inc.
    12-2010 to 02-2012
@@ -136,8 +174,8 @@ Lesite Inc.
 
 .. class:: col-9
 
-Lead Software Developer
-==========================
+Lead software developer
+=======================
 
 Phoenix Technology Games
    2008 to 2009
@@ -149,8 +187,8 @@ Phoenix Technology Games
 
 .. class:: col-9
 
-Software Developer
-=====================
+Software developer
+==================
 
 20-20 Technologies
    2005 to 2008
@@ -162,8 +200,8 @@ Software Developer
 
 .. class:: col-9
 
-System Administrator
-======================
+System administrator
+====================
 
 TiSEC Inc.
    1998 to 2005

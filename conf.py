@@ -53,6 +53,7 @@ THEME = "yeti"
 # Must be a HEX value.
 THEME_COLOR = 'bleu'
 
+SHOW_SOURCELINK = False
 # Theme configuration. Fully theme-dependent. (translatable)
 # Examples below are for bootblog4.
 # bootblog4 supports: featured_large featured_small featured_on_mobile
@@ -61,7 +62,7 @@ THEME_COLOR = 'bleu'
 THEME_CONFIG = {
     DEFAULT_LANG: {
         # Show the latest featured post in a large box, with the previewimage as its background.
-        'featured_large': False,
+        'featured_large': True,
         # Show the first (remaining) two featured posts in small boxes.
         'featured_small': False,
         # Show featured posts on mobile.
