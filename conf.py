@@ -9,7 +9,10 @@ BLOG_TITLE = "Software development brain teasers"
 # in a prominent link. Don't forget the protocol (http/https)!
 SITE_URL = "https://peristeri.github.io/"
 BLOG_EMAIL = "peristerakis -at- gmail -.- com"
-BLOG_DESCRIPTION = "A journal on my experiences and struggles applying software engineering best practices and thoughts on my software development projects."
+BLOG_DESCRIPTION = """
+A journal on my experiences and struggles applying software engineering best
+practices and thoughts on my software development projects.
+"""
 DEFAULT_LANG = "en"
 
 # What other languages do you have?
@@ -128,7 +131,7 @@ DATE_FANCINESS = 2
 
 # Customize the locale/region used for a language.
 # For example, to use British instead of US English: LOCALES = {'en': 'en_GB'}
-# LOCALES = {}
+# LOCALES = {'en': 'en_CA'}
 
 # One or more folders containing files to be copied as-is into the output.
 # The format is a dictionary of {source: relative destination}.
