@@ -3,6 +3,8 @@
 .. date: 2018-12-29 00:00:00 UTC
 .. description: History of my career as a software developer
 .. type: text
+.. hidetitle: True
+.. template: resume.tmpl
 
 .. topic:: Overview
 
@@ -33,7 +35,7 @@ Data processing and management
 ==============================
 
 Developed tools to digest data from different sources, developed data access
-REST API and manage the data.
+REST API and manage the storage of data.
 
 *Django REST* - *postgreSQL* - *json-ld*
 
@@ -219,11 +221,15 @@ Education
 
 Attended a Master’s in Computer Science
     Concordia University, Montreal, Canada
-    **On hold**
+
+    **Publication** `A Linked Data Platform for Mining Software Repositories <http://dl.acm.org/citation.cfm?id=2664446.2664451>`_
+
+    currently **on hold**
 
 Completed a Bachelor in Computer Science (Software Systems)
     Concordia University, Montreal, Canada
-    **Spring 2002**
+
+    Completed **Spring 2002**
 
 .. class:: row justify-content-end
 
