@@ -1,20 +1,20 @@
-.. title: Retrospective of the on-boarding process
-.. slug: retrospective-on-boarding-process
-.. date: 2019-06-13 12:00 UTC
-.. tags: retrospective, opinion
+.. title: Ways to improve the on-boarding process
+.. slug: ways-to-improve-the-on-boarding-process
+.. date: 2019-08-13 12:00 UTC
+.. tags: career, opinion
 .. category: Software Industry
-.. description: What is different when hiring a senior developer
+.. description: What I see wrong with the on-boarding process and how to improve it.
 .. status: draft
 
-With more than a decade of working as a software developer, I started to see a
-shift in the on-boarding. I come in an organization with previous experiences,
-bias and preferences. No longer a clean slate, it takes more effort for me to
-buy in the organization's culture. I want to break down the on-boarding process.
-What works and what does not, and how I can minimize the friction.
+Working more than a decade as a software developer, we develop a list of biases
+and preferences that are influenced by previous experiences. No longer a clean
+slate, it takes more effort for me to buy in the organization's culture. I want
+to break down the on-boarding process. What works, what does not, and how to
+minimize the friction.
 
-Much of my opinions complement what was written in `On being a senior engineer
-<https://www.kitchensoap.com/2012/10/25/on-being-a-senior-engineer/>`_ and
-highly recommend reading the article.
+Inspired by `On being a senior engineer
+<https://www.kitchensoap.com/2012/10/25/on-being-a-senior-engineer/>`_. Highly
+recommend reading the article.
 
 .. figure:: https://imgs.xkcd.com/comics/job_interview.png
    :class: img-fluid
@@ -23,14 +23,19 @@ highly recommend reading the article.
 
 .. TEASER_END
 
-What does work mean to me?
----------------------------
+What does work mean for a senior developer?
+-------------------------------------------------------------
 
-Work is something I find joy in doing. It is the team spirit and the
-accomplishments that gets me out of bed looking forward to challenges ahead. And
-being in the market this long, the tech and titles mean little to me. Coding is
-the primary responsibility in all the positions I undertook but it does not
-define my full worth as a developer.
+Ideally, work is a set of tasks where in the end of the day, anyone can find joy
+doing. It is an environment with team spirit and the drive for accomplishments
+gets organizations to complete challenging projects.
+
+And being in the market this long, position titles and company names have little
+value. Coding might be the primary responsibility but it does not define the
+full worth of a developer. Engagement and challenges are the principal drivers
+to productive and successful developer.
+
+The stage is set in the first months after hiring.
 
 Professional on-boarding
 ------------------------
