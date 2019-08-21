@@ -12,9 +12,9 @@ slate, it takes more effort for me to buy in the organization's culture. I want
 to break down the on-boarding process. What works, what does not, and how to
 minimize the friction.
 
-Much of my opinions complement what was written in `On being a senior engineer
-<https://www.kitchensoap.com/2012/10/25/on-being-a-senior-engineer/>`_ and
-highly recommend reading the article.
+Inspired by `On being a senior engineer
+<https://www.kitchensoap.com/2012/10/25/on-being-a-senior-engineer/>`_. Highly
+recommend reading the article.
 
 .. figure:: https://imgs.xkcd.com/comics/job_interview.png
    :class: img-fluid
@@ -23,16 +23,19 @@ highly recommend reading the article.
 
 .. TEASER_END
 
-What does work mean?
----------------------------
+What does work mean for a senior developer?
+-------------------------------------------------------------
 
 Ideally, work is a set of tasks where in the end of the day, anyone can find joy
 doing. It is an environment with team spirit and the drive for accomplishments
 gets organizations to complete challenging projects.
 
 And being in the market this long, position titles and company names have little
-value. Coding is the primary responsibility in all the positions I undertook but
-it does not define my full worth as a developer.
+value. Coding might be the primary responsibility but it does not define the
+full worth of a developer. Engagement and challenges are the principal drivers
+to productive and successful developer.
+
+The stage is set in the first months after hiring.
 
 Professional on-boarding
 ------------------------
