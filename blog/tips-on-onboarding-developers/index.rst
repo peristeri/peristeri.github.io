@@ -1,6 +1,7 @@
 .. title: Tips on on-boarding developers
 .. slug: tips-on-onboarding-developers
 .. date: 2019-08-21 12:00 UTC
+.. updated: 2019-08-22 12:00 UTC
 .. tags: career, opinion
 .. category: Software Industry
 .. description: Tips to improve the on-boarding developers
@@ -20,16 +21,18 @@ relationship.
 Hiring management prepare to integrate a developer into the team
 ------------------------------------------------------------------------------------------
 
-This goes beyond getting the desk and laptop ready. The hiring *team* needs to
+This goes beyond getting the desk and laptop ready. The hiring **team** needs to
 have a game plan how integrate the new hire. Manage expectations of the team and
 set a responsible(s) to mentor the new hire through the first few months.
 
-I don't understand the position some companies take during the hiring process.
-The strategy of secrecy towards the new hire does not help anyone. Having a
-road-map available and accessible to the new hire is a good practice. It takes
-out the guess work and transparent. A road-map should have a deadlines,
-milestones, project kick-offs. I find this important because it give me a feel
-of the rhythm of the team.
+In some companies, the team's strategy and opinions are implicitly shared among
+the team or even worse kept secret. This is to my opinion the most destructive
+practice to integrate new member(s) of the team. Having a road-map available and
+accessible to the new hire is a good practice. It takes out the guess work and
+makes the team priorities transparent. A road-map can have big picture analysis,
+plan definitions, risks, milestones, or project kick-offs. I find significantly
+important events helps get a feel of the rhythm of the team. In short software
+development is a team effort, so make the road to becoming a team player clear.
 
 Summary:
 
