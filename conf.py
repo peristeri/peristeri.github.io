@@ -825,7 +825,7 @@ RSS_COPYRIGHT_FORMATS = CONTENT_FOOTER_FORMATS
 #   disqus, facebook, intensedebate, isso, livefyre, muut
 # You can leave this option blank to disable comments.
 # COMMENT_SYSTEM = "disqus"
-COMMENT_SYSTEM = ""
+COMMENT_SYSTEM = "disqus"
 
 # And you also need to add your COMMENT_SYSTEM_ID which
 # depends on what comment system you use. The default is
